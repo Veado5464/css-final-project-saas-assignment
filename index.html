@@ -1,10 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
     <title>Saas company</title>
+    <script src="./js.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <div class="logo-icon">
+            <img class="display" src="./assets/logos/logo-front.svg" alt="">
+          </div>
+        </div>
+        <nav class="navigation-header">
+          <button class="trigram"></button>
+          <div>
+           <ul class="header-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Feautres</a></li>
+            <li><a href="">Learn</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Hire us</a></li>
+            <li>
+              <div><a class="buy-now-button" href="">Buy Now</a></div>
+            </li>
+           </ul>
+        </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="first-body">
+          <div class="left-side-body">
+           <h1>Empowering teams with the freedom</h1>
+           <p>Own the unlimited power of the web development</p>
+            <span class="button-and-link">
+             <button class="play-button" id="first-play" >Play Video</button>
+              <a href="">Learn more</a>
+            </span>
+          </div>
+          <div class="right-side-body">
+            <ul class="company-logos">
+             <li class="right" id="asana"></li>
+             <li class="left" id="lassian"></li>
+             <li class="right" id="calendar"></li>
+             <li class="left" id="googl-ads"></li>
+             <li class="left" id="google"></li>
+             <li class="right" id="paypal"></li>
+             <li class="left" id="weave"></li>
+            </ul>
+          </div>
+      </div>
+    </section>
+    <section>
+      <div class="reason-front">
+        <div>
+          <h2>Why front?</h2>
+          <div class="reason-para">
+           <p>Front is an incredibly beautiful, fully responsive, and mobile-first projects on the web - it is the starting point for creative sites</p>
+          </div>
+        </div>
+        <div>
+          <ul class="bullet-point">
+            <li class="basic-elements"></li>
+            <li class="components"></li>
+            <li class="combined-components"></li>
+            <li class="page-layouts"></li>
+          </ul>
+          <ul class="bullet-names">
+            <li class="basic-elements">Basic elements</li>
+            <li class="components">Components</li>
+            <li class="combined-components">Combined components</li>
+            <li class="page-layouts">Page layouts</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="pricing-section">
+        <div>
+          <div class="pricing-header">
+            <h2>Pricing</h2>
+            <p id="pricing-p">No additional costs. Pay for what you see</p>
+          </div>
+          <div class="pricing-one">
+            <div class="pricing-two">
+              <div class="pricing-three">
+                <h3>59</h3>
+                <span>/ mo</span>
+              </div>
+              <div class="pricing-four">
+                <p>Start your Front business now. 100% guaranteed money back. no questions asked.</p>
+                <button class="play-button" id="second-play">Play Video</button>
+                <span id="span-one">No credit card required.</span>
+              </div>
+            </div>
+            <div class="pricing-five">
+              <div class="pricing-six">
+                <img src="./assets/images/components.svg" alt="">
+                <h4>Hundreds of compnents</h4>
+                <p class="pricing-p">Achive maximum productivity with minimum effort with Front and create robust Limitless products.</p>
+              </div>
+              <div class="pricing-seven">
+                <img src="./assets/images/images.svg" alt="">
+                <h4>Images included</h4>
+                <p class="pricing-p">Images included We made custom license for all our premium images in the front.</p>
+              </div>
+              <div class="pricing-eight">
+                <img src="./assets/images/cancel.svg" alt="">
+                <div class="sketch-container">
+                  <h4>Cancel anytime</h4>
+                  <div id="sket">sketch</div>
+                </div>
+                <p class="pricing-p">If its not for you, just cancel, no hidden costs or fees.</p>
+              </div>
+              <div class="pricing-nine">
+                <img src="./assets/images/moneyback.svg" alt="">
+                <h4>Hundreds of compnents</h4>
+                <p class="pricing-p">100% guarateed money back. No questions asked.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="hire-us">
+        <div class="hire-us-section">
+          <div class="hire-us-header">
+            <h5>Hire Us</h5>
+            <div id="advertise">Whatever your goal - we will get you there</div>
+            <div>
+              <p id="random-testimonial">"I love front! I love the ease of use, I love the fact that I have total creative freedom..."</P>
+              </div>
+            </div>
+            <div class="name-one">
+              <div class="name-three">
+                <span id="per-name">Charlotte Moore</span>
+                <div id="per-title">Head of Commercials, Slack</div>
+              </div>
+              <div id="selfie"></div>
+            </div>
+          </div>
+          <div class="form-section">
+            <div class="form-section-one">
+              <h5 id="form-p">Fill out the form and we'll be in touch as soon as possible</h5>
+              <span class="name">
+                <label for="first-name"></label>
+                <input id="first-name" type="text" placeholder="First name" required>
+                <label for="last-name"></label>
+                <input id="last-name" type="text" placeholder="Last name" required>
+              </span>
+            <div>
+              <label for="email"></label>
+              <input class="email-info" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="drop-down">
+              <div>
+                <label for="budget"></label>
+                <select name="budget" id="budget" size="1" required>
+                 <option value="">Please choose an option</option>
+                 <option value="budget">Budget</option>
+                 <option value="chevron-down">Chevron-down</option>
+                </select>
+              </div>
+              <div>
+                <label for="country"></label>
+                <select name="country" id="country" size="1" required>
+                  <option value="">Please choose an option</option>
+                  <option value="country">Country</option>
+                  <option value="chevron-down">Chevron-down</option>
+                </select>
+              </div>
+            </div>
+            <div class="information">
+              <label for="tell-us"></label>
+              <input name="tell-us" id="tell-us" placeholder="Tell us more about your project, needs, and timeline, please...">
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="check" required>
+              <div class="sign-up">
+                <p>Yes, I'd like to receive occasional marketing emails from Front. I have the right to opt out at any time.</p>
+                <span class="view-policy">
+                  <a href="" id="view">View privacy policy</a>
+                  <a href="" id="policy">View privacy policy</a>
+                </span>
+              </div>
+            </div>
+            <div>
+              <input type="button" id="submit" class="Submit" value="Submit">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="contact">
+        <div class="contact-one">
+          <div class="contact-two">
+            <img src="./assets/logos/logo-front.svg" alt="" id="image-footer">
+            <ul id="space-between-one">
+              <li>153 Wiliamson Plaza, Maggieberg</li>
+              <li>+1 (062) 109-9222</li>
+            </ul>
+          </div>
+          <div class="contact-three">
+            <div class="contact-four">
+              <h6>Company</h6>
+              <ul class="space-between-two">
+                <li><a href="">About</a></li>
+                <li><a href="" id="career">Career</a><button id="button-one">We're hiring</button></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Hire us</a></li>
+              </ul>
+            </div>
+            <div class="contact-five">
+              <h6>Features</h6>
+              <ul class="space-between-three">
+                <li><a href="">Press</a></li>
+                <li><a href="">Release notes</a></li>
+                <li><a href="">Intergrations</a></li>
+                <li><a href="">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="contact-six">
+              <h6>Documentation</h6>
+              <ul class="space-between-two">
+                <li><a href="">Support</a></li>
+                <li><a href="">Docs</a></li>
+                <li><a href="">Status</a></li>
+                <li><a href="">API Reference</a></li>
+                <li><a href="">Tech Requirements</a></li>
+              </ul>
+            </div>
+            <div class="contact-seven">
+              <h6>Resources</h6>
+              <ul class="space-between-four">
+                <li><a href="">Help</a></li>
+                <li><a href="">Your Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
